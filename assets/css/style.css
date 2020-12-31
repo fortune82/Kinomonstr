@@ -1,0 +1,252 @@
+h2 {
+    margin: 32px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    color: rgb(255, 166, 0);
+    text-decoration: none;
+    font-size: 120%;
+    letter-spacing: 7px;
+}
+
+.tagline {
+    letter-spacing: 5px;
+}
+
+.logo:hover,
+.navbar .nav-item .nav-link:hover {
+    color: rgb(255, 166, 0);
+}
+
+.navbar .nav-item .nav-link {
+    font-size: 18px;
+}
+
+.nav-item .active {
+    background-color: rgb(28, 103, 138);
+    border-radius: 5px;
+}
+
+.tagline {
+    font-size: 14px;
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-brand h1 {
+        font-size: 200%;
+        letter-spacing: 5px;
+    }
+
+    .navbar .nav-item .nav-link {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 540px) {
+    .navbar-brand h1 {
+        font-size: 170%;
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 340px) {
+    .navbar-brand h1 {
+        font-size: 140%;
+        letter-spacing: 1px;
+    }
+
+}
+
+.clear {
+    clear: both;
+    height: 63px;
+}
+
+/* ---------- задано для того чтоб прижать footer к низу экрана---------*/
+.wrapper {
+    min-height: 100%;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* -------------------------------------------------------------- */
+
+/* --------------------------колонка с фильмами ------------------------- */
+.films_block {
+    text-align: center;
+}
+
+.films_block img {
+    margin-bottom: 5%;
+    border-radius: 5px;
+    border: 5px solid #dad7d5;
+    width: 100%;
+}
+
+.film_label {
+    padding: 2%;
+    margin-bottom: 4%;
+}
+
+.margin-8 {
+    margin-top: 8%;
+}
+
+
+.card {
+    border: none;
+    margin-top: 7%;
+}
+
+.card-body {
+    background-color: #f9f9f9;
+}
+
+.logoBoard {
+    background-color: #f9f9f9;
+    height: 180px;
+}
+
+.card-info>.card-header {
+    background-color: #f0ad4e;
+    color: #fff;
+    background-color: tranparent;
+}
+
+.sidebar-header {
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+.form-control {
+    font-size: 14px;
+    border-radius: 0;
+}
+
+.form-control-lg {
+    font-size: 14px;
+    margin-bottom: 5%;
+}
+
+
+.btn-secondary {
+    background-color: transparent;
+    border-radius: 0 3px 3px 0;
+    border-color: #c7d1db;
+    padding: 4px 12px;
+    font-size: 1.24rem;
+}
+
+.btn {
+    color: #ffff;
+    float: right;
+    /* margin-right: 0; */
+}
+
+/* ----------------------Блок рейтингов фильмов----------------- */
+.list-group-item a,
+.card-text a {
+    color: #265474;
+}
+
+.badge {
+    background-color: #000;
+    border-radius: 5px;
+}
+
+/* ----------------------Новости----------------- */
+.news {
+    clear: both;
+    margin-top: 30px;
+}
+
+
+/* ---------------------------footer--------------------------- */
+
+footer {
+    background-color: #222;
+    padding: 17px 0 18px 0;
+    border-top: 1px solid #000;
+}
+
+footer a {
+    color: #666;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+
+
+/* ---------------------основной экран страницы show */
+.showH1 {
+    padding-top: 50px;
+}
+
+.info-block {
+    background-color: rgb(247, 247, 247);
+    padding: 10px;
+    font-size: 120%;
+    margin-top: 20px;
+}
+
+.info-block span {
+    margin-right: 3%;
+}
+
+.info-block .badge {
+    font-size: 80%;
+}
+
+.name {
+    padding-left: 10px;
+    font-size: 14px;
+    letter-spacing: normal;
+}
+
+.review {
+    margin-top: 2%;
+}
+
+.reviewText {
+    margin-bottom: 2%;
+}
+
+textarea {
+    height: 200px;
+}
+
+/* ---------------------------Рейтинги фильмов страница------------ */
+.show {
+    color: rgb(83, 83, 204);
+}
+
+.show:hover {
+    color: rgb(15, 15, 39);
+}
+
+td {
+    vertical-align: middle;
+}
+
+/* -------------------Описание картины---------------- */
+article {
+    margin-top: 50px;
+}
+
+address {
+    color: teal;
+}
